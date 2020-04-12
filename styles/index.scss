@@ -53,21 +53,21 @@ body {
 /* Mobile */
 @media (max-width: 1024px)  {
     body {
+        height: 100vh !important;
         #landing-container {
             width: 100vw; 
+            height: 100vh !important;
             background-size: 250%;
                 nav {
                     a {
                         h1 {
                             font-size: 24px;     
-                            margin-top: 150px;
+                            margin-top: 50px !important;   
                         }
                     }
                 }
                 h2 {
-                    font-size: 18px;
-                    width: 100vw; 
-                    padding: 0px 10px 100px 10px;
+                    display: none;
                 }
         }
     }

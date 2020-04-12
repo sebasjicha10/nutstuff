@@ -181,8 +181,8 @@ main #catalog .section .description .about {
     padding-left: 5px;
   }
   main #catalog .section .butter-picture {
-    width: 144px;
-    height: 180px;
+    width: 144px !important;
+    height: 180px !important;
   }
   main #catalog .section .description {
     padding-left: 10px;
