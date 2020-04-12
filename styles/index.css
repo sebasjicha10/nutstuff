@@ -42,4 +42,27 @@ body #landing-container h2 {
   text-align: center;
 }
 
+/* Mobile */
+@media (max-width: 1024px) {
+  body #landing-container {
+    width: 100vw;
+    background-size: 250%;
+  }
+  body #landing-container nav a h1 {
+    font-size: 24px;
+    margin-top: 150px;
+  }
+  body #landing-container h2 {
+    font-size: 18px;
+    width: 100vw;
+    padding: 0px 10px 100px 10px;
+  }
+}
+@media (max-width: 325px) {
+  h1 {
+    font-size: 20px !important;
+    margin-top: 120px !important;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
