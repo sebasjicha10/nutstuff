@@ -182,7 +182,7 @@ main #catalog .section .description .about {
   }
   main #catalog .section .butter-picture {
     width: 144px !important;
-    height: auto !important;
+    height: 180px !important;
   }
   main #catalog .section .description {
     padding-left: 10px;
