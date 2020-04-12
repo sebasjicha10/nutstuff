@@ -91,22 +91,10 @@ main {
         }
 
         button {
-            border: 0.5px solid $nutstuff-red;
             width: 100px;
-            padding: 5px;
-            text-decoration: none;
             font-family: $nutstuff-font;
-            color: $nutstuff-red;
-            border-radius: 5px;
-            background-color: $secondary-grey;
             font-size: 18px;
         }
-
-        button:hover {
-            opacity: 0.9;
-            font-weight: 600;
-
-        } 
     }
     h2 {
         font-family: $nutstuff-font;
@@ -183,20 +171,9 @@ main {
                 margin-bottom: 5px;
             }
             button {
-                border: 0.5px solid $nutstuff-red;
                 width: 100px;
-                padding: 5px;
-                text-decoration: none;
-                font-family: $nutstuff-font;
-                color: $nutstuff-red;
-                border-radius: 5px;
-                background-color: $secondary-grey;
-                font-size: 18px;
-            }
-            button:hover {
-                opacity: 0.9;
-                font-weight: 600;
-            }       
+
+            }    
         }
         h2 {
             font-size: 20px;
