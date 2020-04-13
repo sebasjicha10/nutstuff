@@ -92,7 +92,6 @@ main #catalog .section {
 }
 main #catalog .section .butter-picture {
   width: 229px;
-  height: 286px;
   border-radius: 10px;
 }
 main #catalog .section .description {
@@ -179,7 +178,6 @@ main #catalog .section .description .about {
   }
   main #catalog .section .butter-picture {
     width: 144px;
-    height: 180px;
   }
   main #catalog .section .description {
     padding-left: 10px;
