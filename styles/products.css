@@ -86,14 +86,13 @@ main #extras p {
   color: #C1272D;
 }
 main #catalog {
-  border: 1px solid green;
+  width: 100%;
 }
 main #catalog .section {
   display: flex;
   justify-content: flex-start;
   padding-left: 0;
   margin-bottom: 40px;
-  border: 1px solid red;
   width: 70%;
 }
 main #catalog .section img {
@@ -101,14 +100,12 @@ main #catalog .section img {
   width: 229px;
   height: 286px;
   border-radius: 10px;
-  border: 1px solid green;
 }
 main #catalog .section .description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 20px;
-  border: 1px solid blue;
   width: 65%;
 }
 main #catalog .section .description h1 {
