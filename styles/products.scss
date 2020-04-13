@@ -103,15 +103,22 @@ main {
         }
         
         #catalog {
+            border: 1px solid green;
 
             .section {
                 display: flex;
+                justify-content: flex-start;
                 padding-left: 0;
                 margin-bottom: 40px;
+                border: 1px solid red;
+                width: 70%;
 
-                .butter-picture {
+                img {
+                    min-width: 229;
                     width: 229px;
+                    height: 286px;
                     border-radius: 10px;
+                    border: 1px solid green;
                 }
 
                 .description {
@@ -119,6 +126,8 @@ main {
                     flex-direction: column;
                     justify-content: center;
                     padding-left: 20px;
+                    border: 1px solid blue;
+                    width: 65%;
 
                     h1 {
                         color: $nutstuff-brown;
@@ -211,12 +220,15 @@ main {
                 .section {
                     margin-bottom: 20px;
                     padding-left: 5px;
+                    width: 100%;
 
-                    .butter-picture {
+                    img {
                         width: 144px;
+                        height: 180px;
                     }
                     .description {
                         padding-left: 10px;
+                        width: 65%;
 
                         h1 {
                             font-size: 25px;
@@ -224,7 +236,7 @@ main {
                             padding-bottom: 0px;
                             margin-bottom: 0px;
                         }
-
+                        
                         .content {
                             padding-top: 5px;                
                             p {
@@ -237,7 +249,6 @@ main {
                                 }
                             }
                         }
-                        
                         .about {
                             font-size: 10px;
                             margin-bottom: 0px;
