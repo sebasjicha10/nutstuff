@@ -4,27 +4,6 @@ $secondary-grey: #F7F7F7;
 $nutstuff-brown: #4A3516;
 $nutstuff-font: 'Marcellus', serif;
 
-%product-image {
-    width: 229px;
-    height: 286px;
-    border-radius: 10px;
-}
-
-%description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 20px;
-}
-
-%butter-heading {
-    color: $nutstuff-brown;
-    font-size: 40px;
-    font-family: $nutstuff-font;
-    border-bottom: 0.5px solid $primary-grey;
-    padding-bottom: 10px;
-}
-
 header {
     height: 50px;
     background-color: #F7F7F7;
@@ -131,14 +110,23 @@ main {
                 margin-bottom: 40px;
 
                 .butter-picture {
-                    @extend %product-image;
+                    width: 229px;
+                    height: 286px;
+                    border-radius: 10px;
                 }
 
                 .description {
-                    @extend %description;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding-left: 20px;
 
                     h1 {
-                        @extend %butter-heading;
+                        color: $nutstuff-brown;
+                        font-size: 40px;
+                        font-family: $nutstuff-font;
+                        border-bottom: 0.5px solid $primary-grey;
+                        padding-bottom: 10px;
                     }
                     .content {
                         display: flex;
@@ -164,17 +152,21 @@ main {
 
 /* Mobile */
 @media (max-width: 1024px)  {
+
     header {
         height: 40px;
         width: 100vw;
+
         nav {
             width: 100vw; 
             padding-right: 10px;
+
                 #home-logo {
                     width: 46px;
                     height: 22px;
                     margin-left: 10px;
                 }
+
                 #tabs a {
                     font-size: 14px;
                     margin-left: 10px; 
@@ -189,6 +181,7 @@ main {
     main {
         width: 100vw; 
         margin-top: 10px;
+
             #extras {
                 position: relative;
                 display: flex;
@@ -215,22 +208,25 @@ main {
             }
             
             #catalog {
+
                 .section {
                     margin-bottom: 20px;
                     padding-left: 5px;
 
                     .butter-picture {
-                        width: 144px !important;
-                        height: 180px !important;
+                        width: 144px;
+                        height: 180px;
                     }
                     .description {
                         padding-left: 10px;
+
                         h1 {
                             font-size: 25px;
                             border-bottom: 0.5px solid $primary-grey;
                             padding-bottom: 0px;
                             margin-bottom: 0px;
                         }
+
                         .content {
                             padding-top: 5px;                
                             p {
@@ -243,6 +239,7 @@ main {
                                 }
                             }
                         }
+                        
                         .about {
                             font-size: 10px;
                             margin-bottom: 0px;
